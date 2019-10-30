@@ -26,7 +26,7 @@ if __name__ == '__main__':
     register_env("2x2grid", lambda _: SumoEnvironment(net_file='nets/2x2grid/2x2.net.xml',
                                                     route_file='nets/2x2grid/2x2.rou.xml',
                                                     out_csv_name='outputs/2x2grid/a3c-contexts',
-                                                    use_gui=True,
+                                                    use_gui=False,
                                                     num_seconds=100000,
                                                     time_to_load_vehicles=120,
                                                     max_depart_delay=0,

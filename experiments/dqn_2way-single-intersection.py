@@ -24,7 +24,7 @@ if __name__ == '__main__':
                                     route_file='nets/2way-single-intersection/single-intersection-vhvh.rou.xml',
                                     out_csv_name='outputs/2way-single-intersection/dqn-vhvh2-stable-mlp-bs',
                                     single_agent=True,
-                                    use_gui=True,
+                                    use_gui=False,
                                     num_seconds=100000,
                                     time_to_load_vehicles=120,
                                     max_depart_delay=0,
